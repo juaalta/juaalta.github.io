@@ -93,15 +93,16 @@
                     <p>
                         <strong>Juansal</strong><br/>
                         blog: <a href="http://juaalta.github.io" target="_blank">http://juaalta.github.io</a><br/>
-                        twitter: <a href="http://twitter.com/" target="_blank">@</a><br/>
-                        github: <a href="https://github.com/" target="_blank"></a>
+                        twitter: <a href="http://twitter.com/juaalta" target="_blank">@juaalta</a><br/>
+                        github: <a href="https://github.com/juaalta" target="_blank">juaalta</a>
                     </p>
                     <p>
-                        <a href="https://twitter.com/" class="twitter-follow-button" data-show-count="true">Follow @</a>
+                        <a href="https://twitter.com/juaalta" class="twitter-follow-button" data-show-count="true">Follow @juaalta</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                     </p>
                     <p>
-                        <p><strong>Please! edit your profile</strong></p>
+                        <h1 id="toc_0">Edición del perfil</h1>
+<p>Perfil editado</p>
                     </p>
                 </div>
                 <div>
@@ -173,17 +174,17 @@
                             <p>Como dicen en su github:</p><pre><code class=""> A <span class="keyword">static</span> site generator built <span class="keyword">with</span> Node.js, <span class="string">"Haroo"</span> means <span class="string">"a day"</span> Support Markdown presentation, Syntax Highlight, Themes
 </code></pre><p>Es un generador de páginas web estátias hecho con Node.js.</p><p>Su web es: <a href="http://haroopress.com">http://haroopress.com</a>
 Si github es: <a href="https://github.com/rhiokim/haroopress">https://github.com/rhiokim/haroopress</a></p><p>Su uso se vuelve un poco complicado al principio, ya que su web y el site por defecto que este crea están en idioma coreano.</p>
-<h2 id="toc_0">Instalación requisitos previos:</h2>
+<h2 id="toc_1">Instalación requisitos previos:</h2>
 <p>Los requerimientos prévios para la instalación son los siguientes:</p>
-<h3 id="toc_1">Node.js</h3>
+<h3 id="toc_2">Node.js</h3>
 <pre><code class="bash"><span class="title">yum</span> install nodejs
 </code></pre>
-<h3 id="toc_2">Git</h3>
+<h3 id="toc_3">Git</h3>
 <pre><code class="bash"><span class="title">yum</span> install git
 </code></pre>
-<h2 id="toc_3">Instalación</h2>
+<h2 id="toc_4">Instalación</h2>
 <p>Los pasos que he seguido para la instalación han sido los siguientes:</p>
-<h3 id="toc_4">Obtención del programa:</h3>
+<h3 id="toc_5">Obtención del programa:</h3>
 <p>Los comandos ejecutados han sido:</p><pre><code class="bash">mkdir haroopress_test
 git <span class="keyword">clone</span> https:<span class="comment">//github.com/rhiokim/haroopress.git haroopress_test</span>
 </code></pre><p>El resultado por pantalla ha sido</p><pre><code class="">Cloning into <span class="string">'haroopress_test'</span><span class="keyword">...</span>
@@ -193,7 +194,7 @@ Receiving objects: <span class="number">100</span>% (<span class="number">6758</
 Resolving deltas: <span class="number">100</span>% (<span class="number">2821</span>/<span class="number">2821</span>), done.
 Checking connectivity... done.
 </code></pre>
-<h3 id="toc_5">Inicialización del sitio web:</h3>
+<h3 id="toc_6">Inicialización del sitio web:</h3>
 <p>Los comandos ejecutados han sido:</p><pre><code class="bash"><span class="title">cd</span> haroopress_test
 
 <span class="title">git</span> config <span class="comment">--global user.email "email"</span>
@@ -629,9 +630,9 @@ Issue <span class="attribute">https</span>:<span class="regexp">//gi</span>thub.
 </code></pre>
 <h1 id="toc_-266179">Uso de haroopress</h2>
 
-<h3 id="toc_7">Comandos de previsualización y publicación</h3>
+<h3 id="toc_8">Comandos de previsualización y publicación</h3>
 
-<h4 id="toc_8">Establecer el repositorio GitHub para desplegar la web</h4>
+<h4 id="toc_9">Establecer el repositorio GitHub para desplegar la web</h4>
 <p>Este comando no es preciso lanzarlo, si en el paso anterior ha sido configurado el repositorio de github.</p><pre><code class="bash"><span class="comment">make</span> <span class="comment">gh</span><span class="literal">-</span><span class="comment">pages</span>
 </code></pre><p>La ejecución de este comando da como resultado:</p><pre><code class="">========================================
 = clear public &amp; deployment directories
@@ -851,7 +852,7 @@ haroo&gt; open http://juaalta.github.io ? [y/n]          y
 <span class="comment">write</span> <span class="comment">here!</span>
 </code></pre><p>Nuestro artículo en Markdown ha de empezar en la línea en la que se encuentra la frase <code>write here!</code> (esta frase puede ser borrada, sólo indica el inicio del código del artículo). La información anterior a esta frase es usada por Haroopres.</p><p><strong>Nota importante:</strong>
 Mientras la variable <code>status</code> contenga el valor <strong>draft</strong>, este artículo no se publicará. Para que se publique se ha de cambiar el valor a <strong>publish</strong>.</p>
-<h4 id="toc_14">Crear una página</h4>
+<h4 id="toc_15">Crear una página</h4>
 <pre><code class="bash">make <span class="literal">new</span><span class="attribute">-page</span>
 </code></pre><p>La ejecución del comando da como resultado:</p><pre><code class=""><span class="title">cd</span> ./bin;./new-page.js
 <span class="title">haroo</span>&gt; <span class="type">Enter</span> page title : <span class="type">Pagina</span> test <span class="number">1</span>
@@ -883,7 +884,7 @@ Mientras la variable <code>status</code> contenga el valor <strong>draft</strong
 <span class="comment">content</span> <span class="comment">here!</span>
 </code></pre><p>Nuestro contenido de la página en Markdown ha de empezar en la línea en la que se encuentra la frase <code>content here!</code> (esta frase puede ser borrada, sólo indica el inicio del código del artículo). La información anterior a esta frase es usada por Haroopres.</p><p><strong>Nota importante:</strong>
 Mientras la variable <code>status</code> contenga el valor <strong>draft</strong>, este artículo no se publicará. Para que se publique se ha de cambiar el valor a <strong>publish</strong>.</p>
-<h4 id="toc_15">Crear un pase de diapositivas</h4>
+<h4 id="toc_16">Crear un pase de diapositivas</h4>
 <pre><code class="bash">make <span class="literal">new</span><span class="attribute">-slide</span>
 </code></pre><p>La ejecución del comando da como resultado:</p><pre><code class=""><span class="title">cd</span> ./bin;./new-slide.js
 <span class="title">haroo</span>&gt; <span class="type">Input</span> slide title : <span class="type">Slide</span> <span class="type">Test</span> <span class="number">1</span>
