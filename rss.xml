@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Test de Haroopress sobre github]]></title><description><![CDATA[Test de Haroopress sobre github]]></description><link>http://juaalta.github.io</link><image><url>http://juaalta.github.io/public/img/favorite.png</url><title>Test de Haroopress sobre github</title><link>http://juaalta.github.io</link></image><generator>RSS for Node</generator><lastBuildDate>Mon, 08 Jun 2015 21:19:17 GMT</lastBuildDate><atom:link href="http://juaalta.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Instalación y primeros pasos con Haroopress]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/3aa63dec86b0c8912109e2c9acdd06ac?r=pg&s=48.jpg&d=identicon"><br/><p>Como dicen en su github:</p><pre><code class=""> A <span class="keyword">static</span> site generator built <span class="keyword">with</span> Node.js, <span class="string">"Haroo"</span> means <span class="string">"a day"</span> Support Markdown presentation, Syntax Highlight, Themes
-</code></pre><p>Es un generador de páginas web estátias hecho con Node.js.</p><p>Su web es: <a href="http://haroopress.com">http://haroopress.com</a>
-Si github es: <a href="https://github.com/rhiokim/haroopress">https://github.com/rhiokim/haroopress</a></p><p>Su uso se vuelve un poco complicado al principio, ya que su web y el site por defecto que este crea están en idioma coreano.</p>
-<h2 id="toc_17">Instalación requisitos previos:</h2>
-]]></description><link>http://juaalta.github.io/post/instalacion-y-primeros-pasos-con-haroopress</link><guid isPermaLink="false">instalacion-y-primeros-pasos-con-haroopress</guid><dc:creator><![CDATA[<a href="juaalta" target="_blank">Juansal</a>]]></dc:creator><pubDate>Fri, 08 May 2015 23:40:00 GMT</pubDate></item><item><title><![CDATA[Prueva 1]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/3aa63dec86b0c8912109e2c9acdd06ac?r=pg&s=48.jpg&d=identicon"><br/><p>write here!</p>]]></description><link>http://juaalta.github.io/post/prueva-1</link><guid isPermaLink="false">prueva-1</guid><dc:creator><![CDATA[<a href="juaalta" target="_blank">Juansal</a>]]></dc:creator><pubDate>Thu, 07 May 2015 23:06:00 GMT</pubDate></item><item><title><![CDATA[Welcome to haroopress]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/a8618a255192bd842fdd62d099776735?r=pg&s=48.jpg&d=identicon"><br/><h3 id="toc_25">환영합니다.</h3>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Test de Haroopress sobre github]]></title><description><![CDATA[Sitio de prueva en el que estoy probando Haroopress]]></description><link>http://juaalta.github.io</link><image><url>http://juaalta.github.io/public/img/favorite.png</url><title>Test de Haroopress sobre github</title><link>http://juaalta.github.io</link></image><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Jun 2015 23:11:49 GMT</lastBuildDate><atom:link href="http://juaalta.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Welcome to haroopress]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/a8618a255192bd842fdd62d099776735?r=pg&s=48.jpg&d=identicon"><br/><h3 id="toc_24">환영합니다.</h3>
 
 <ul>
 <li>Welcome</li>
@@ -17,9 +13,9 @@ Si github es: <a href="https://github.com/rhiokim/haroopress">https://github.com
 <li>добро пожаловать</li>
 </ul>
 
-<h3 id="toc_26">Intro</h3>
+<h3 id="toc_25">Intro</h3>
 <p>하루프레스는 하루의 이야기를 블로깅하기 위한 정적 페이지 블로그 엔진입니다.</p>
-<h3 id="toc_27">Haroopress?</h3>
+<h3 id="toc_26">Haroopress?</h3>
 
 <ul>
 <li><a href="http://haroopress.com/about/">하루프레스?</a></li>
@@ -28,7 +24,7 @@ Si github es: <a href="https://github.com/rhiokim/haroopress">https://github.com
 <li><a href="http://haroopress.com/diary">하루프레스 개발 다이어리</a></li>
 </ul>
 
-<h3 id="toc_28">Usage</h3>
+<h3 id="toc_27">Usage</h3>
 
 <ul>
 <li><a href="http://haroopress.com/post/haroopress-install-guide-movie/">5분만에 설치하는 하루프레스 동영상</a></li>
@@ -39,9 +35,13 @@ Si github es: <a href="https://github.com/rhiokim/haroopress">https://github.com
 <li><a href="http://haroopress.com/post/harupeureseu-hwangyeongseoljeong-hagi/">하루프레스 환경설정 하기</a></li>
 </ul>
 
-<h3 id="toc_29">History</h3>
+<h3 id="toc_28">History</h3>
 
 <ul>
 <li><a href="https://github.com/rhiokim/haroopress/wiki/Change-History">변경 이력</a></li>
 </ul>
-]]></description><link>http://juaalta.github.io/post/welcome-to-haroopress</link><guid isPermaLink="false">welcome-to-haroopress</guid><dc:creator><![CDATA[<a href="haroopress" target="_blank">haroopress</a>]]></dc:creator><pubDate>Tue, 21 Feb 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[Presentacion]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/3aa63dec86b0c8912109e2c9acdd06ac?r=pg&s=48.jpg&d=identicon"><br/><p>La finalidad de este blog es introducir lo que me parezca, en un principio no va a ser dirigido a ningún tema en especial.</p>]]></description><link>http://juaalta.github.io/post/presentacion</link><guid isPermaLink="false">presentacion</guid><dc:creator><![CDATA[<a href="juaalta" target="_blank">Juansal</a>]]></dc:creator><pubDate>Wed, 21 Apr 2010 22:41:00 GMT</pubDate></item></channel></rss>
+]]></description><link>http://juaalta.github.io/post/welcome-to-haroopress</link><guid isPermaLink="false">welcome-to-haroopress</guid><dc:creator><![CDATA[<a href="haroopress" target="_blank">haroopress</a>]]></dc:creator><pubDate>Invalid Date</pubDate></item><item><title><![CDATA[Prueva 1]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/3aa63dec86b0c8912109e2c9acdd06ac?r=pg&s=48.jpg&d=identicon"><br/><p>write here!</p>]]></description><link>http://juaalta.github.io/post/prueva-1</link><guid isPermaLink="false">prueva-1</guid><dc:creator><![CDATA[<a href="juaalta" target="_blank">Juansal</a>]]></dc:creator><pubDate>Invalid Date</pubDate></item><item><title><![CDATA[Presentacion]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/3aa63dec86b0c8912109e2c9acdd06ac?r=pg&s=48.jpg&d=identicon"><br/><p>La finalidad de este blog es introducir lo que me parezca, en un principio no va a ser dirigido a ningún tema en especial.</p>]]></description><link>http://juaalta.github.io/post/presentacion</link><guid isPermaLink="false">presentacion</guid><dc:creator><![CDATA[<a href="juaalta" target="_blank">Juansal</a>]]></dc:creator><pubDate>Invalid Date</pubDate></item><item><title><![CDATA[Instalación y primeros pasos con Haroopress]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/3aa63dec86b0c8912109e2c9acdd06ac?r=pg&s=48.jpg&d=identicon"><br/><p>Como dicen en su github:</p><pre><code class=""> A <span class="keyword">static</span> site generator built <span class="keyword">with</span> Node.js, <span class="string">"Haroo"</span> means <span class="string">"a day"</span> Support Markdown presentation, Syntax Highlight, Themes
+</code></pre><p>Es un generador de páginas web estátias hecho con Node.js.</p><p>Su web es: <a href="http://haroopress.com">http://haroopress.com</a>
+Si github es: <a href="https://github.com/rhiokim/haroopress">https://github.com/rhiokim/haroopress</a></p><p>Su uso se vuelve un poco complicado al principio, ya que su web y el site por defecto que este crea están en idioma coreano.</p>
+<h2 id="toc_16">Instalación requisitos previos:</h2>
+]]></description><link>http://juaalta.github.io/post/instalacion-y-primeros-pasos-con-haroopress</link><guid isPermaLink="false">instalacion-y-primeros-pasos-con-haroopress</guid><dc:creator><![CDATA[<a href="juaalta" target="_blank">Juansal</a>]]></dc:creator><pubDate>Invalid Date</pubDate></item></channel></rss>
